@@ -10,18 +10,18 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a asp-area="" asp-controller="Home" asp-action="Index">EaglesNestSite</a></li>
+            <ul class="home">
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Eagle's Nest</a></li>
             </ul>
-                <ul>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
-                </ul>
+            <ul>
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Menu</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+            </ul>
         </nav>
     </header>
 
 
-    <div>
+    <div class="content">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

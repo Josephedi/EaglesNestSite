@@ -2,23 +2,20 @@
     margin: 0;
 }
 
-section {
-    width: 90%;
-}
 
+
+/* all the elements in the navigation bar */
 header {
     margin: 0;
-    background: #666A86;
 }
 
 nav {
     overflow: hidden;
-    background: black;
-    margin: 0;
+    background: #1c3b9e;
+    line-height: 25px;
 }
     nav ul {
-        margin: 0;
-        padding: 0;
+        margin: 0px 110px;
     }
         nav ul li {
             display: inline;
@@ -26,11 +23,11 @@ nav {
             nav ul li a {
                 color: white;
                 float: left;
-                padding: 15px 14px;
+                padding: 20px 14px;
                 text-decoration: none;
                 text-align: center;
                 font-weight: 900;
-                font-size: 100%;
+                font-size: 120%;
             }
             /*
                 nav ul li a:hover {
@@ -43,19 +40,41 @@ nav {
                     color: black;
                 }
             */
-    main {
 
+    nav ul.home {
+        margin: 0 10px;
+        padding: 0;
     }
-        #form1 {
-
+        nav ul.home li {
+            display: inline;
         }
-            article {
 
+            nav ul.home li a {
+                color: #e6e60b;
+                float: left;
+                padding: 18px 17px;
+                text-decoration: none;
+                text-align: center;
+                font-weight: 900;
+                font-size: 155%;
             }
 
+
+/* edits all the elements in the "content holder" */
+div.content {
+    margin: 40px;
+    color: black;
+}
+
+main {
+
+}
+
+
+/* edits the elements in the footer */
 footer {
     clear: both;
-    background: black;
+    background: #1c3b9e;
     color: white;
     font-weight: 100;
     font-size: .85em;

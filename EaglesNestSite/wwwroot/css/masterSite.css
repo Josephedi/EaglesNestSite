@@ -14,12 +14,16 @@ nav {
     background: #1c3b9e;
     line-height: 25px;
 }
+
     nav ul {
-        margin: 0px 110px;
+        margin: 0;
+        padding: 0;
     }
+
         nav ul li {
             display: inline;
         }
+
             nav ul li a {
                 color: white;
                 float: left;
@@ -28,37 +32,67 @@ nav {
                 text-align: center;
                 font-weight: 900;
                 font-size: 120%;
+                position: relative;
             }
-            /*
-                nav ul li a:hover {
-                    background-color: white;
-                    color: black;
-                }
 
-                nav ul li a.active {
-                    background-color: white;
-                    color: black;
-                }
-            */
-
-    nav ul.home {
-        margin: 0 10px;
-        padding: 0;
-    }
-        nav ul.home li {
-            display: inline;
+        nav ul:not(.home) li a:hover:not(.active) {
+            background-color: black;
         }
 
-            nav ul.home li a {
-                color: #e6e60b;
-                float: left;
-                padding: 18px 17px;
-                text-decoration: none;
-                text-align: center;
-                font-weight: 900;
-                font-size: 155%;
+            nav ul:not(.home) li a:hover:not(.active)::after {
+                content: "";
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 5px;
+                background-color: white;
             }
 
+        nav ul li a.active {
+            background-color: #04aa6d;
+        }
+
+.home {
+    margin: 0;
+    padding: 0;
+}
+
+    .home li {
+        display: inline;
+    }
+
+        .home li a {
+            color: #e6e60b;
+            float: left;
+            padding: 20px 14px;
+            text-align: center;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 900;
+            font-size: 155%;
+            position: relative;
+        }
+
+            .home li a:hover:not(.active) {
+                background-color: #1c3b9e;
+            }
+
+                .home li a:hover:not(.active)::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 5px;
+                    background-color: none;
+                }
+
+            .home li a.active {
+                background-color: #1c3b9e;
+            }
 
 /* edits all the elements in the "content holder" */
 div.content {

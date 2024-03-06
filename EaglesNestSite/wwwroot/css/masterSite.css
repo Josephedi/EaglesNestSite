@@ -3,29 +3,25 @@
 }
 
 
-
-/* all the elements in the navigation bar */
 header {
     margin: 0;
 }
 
-/* adding some comments for clarification */
-/* another comment */
+/* the navigation bar */
 nav {
     overflow: hidden;
     background: #1c3b9e;
     line-height: 25px;
 }
-
+    /* margin and padding of the list of tabs */
     nav ul {
         margin: 0;
         padding: 0;
     }
-
         nav ul li {
             display: inline;
         }
-
+        /* how each tab looks */
             nav ul li a {
                 color: white;
                 float: left;
@@ -36,11 +32,11 @@ nav {
                 font-size: 120%;
                 position: relative;
             }
-
-        nav ul:not(.home) li a:hover:not(.active) {
-            background-color: black;
-        }
-
+            /* how the tab looks when you hover over it */
+            nav ul:not(.home) li a:hover:not(.active) {
+                background-color: black;
+            }
+            /* the white block under each tab when it gets hovered over */
             nav ul:not(.home) li a:hover:not(.active)::after {
                 content: "";
                 display: block;
@@ -51,36 +47,37 @@ nav {
                 height: 5px;
                 background-color: white;
             }
-
-        nav ul li a.active {
-            background-color: #04aa6d;
-        }
-
-.home {
-    margin: 0;
-    padding: 0;
-}
-
-    .home li {
-        display: inline;
-    }
-
-        .home li a {
-            color: #e6e60b;
-            float: left;
-            padding: 20px 14px;
-            text-align: center;
-            text-decoration: none;
-            text-align: center;
-            font-weight: 900;
-            font-size: 155%;
-            position: relative;
-        }
-
-            .home li a:hover:not(.active) {
-                background-color: #1c3b9e;
+            /* */
+            nav ul li a.active {
+                background: #e8d60c;
+                color: black;
             }
 
+    /* separate home class for the list in which the home button is in */
+    .home {
+        margin: 0;
+        padding: 0;
+    }
+        .home li {
+            display: inline;
+        }
+            /* how the tab of the home button looks */
+            .home li a {
+                color: #e6e60b;
+                float: left;
+                padding: 20px 14px;
+                text-align: center;
+                text-decoration: none;
+                text-align: center;
+                font-weight: 900;
+                font-size: 155%;
+                position: relative;
+            }
+                /* how the home button looks when you hover over it */
+                .home li a:hover:not(.active) {
+                    background-color: #1c3b9e;
+                }
+                /* how the bar at the bottom of the tab looks when you hover over the tab */
                 .home li a:hover:not(.active)::after {
                     content: "";
                     display: block;
@@ -91,10 +88,11 @@ nav {
                     height: 5px;
                     background-color: none;
                 }
+                /* how the home button looks when its the one that's active */
+                .home li a.active {
+                    background-color: #1c3b9e;
+                }
 
-            .home li a.active {
-                background-color: #1c3b9e;
-            }
 
 /* edits all the elements in the "content holder" */
 div.content {

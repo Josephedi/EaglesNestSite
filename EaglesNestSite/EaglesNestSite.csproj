@@ -10,8 +10,12 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <Content Remove="wwwroot\css\masterSite.css" />
+    <Content Remove="wwwroot\images\Foods\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\masterSite.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\Foods\" />
   </ItemGroup>
 </Project>

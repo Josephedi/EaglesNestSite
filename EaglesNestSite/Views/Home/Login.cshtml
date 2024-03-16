@@ -15,11 +15,11 @@
             <form action="">
                 <h1><img src="~/images/Logos/LaSierra_Icon.png" alt="La Sierra Logo"/> Login</h1>
                 <div class="input-box">
-                    @Html.TextBoxFor(m => m.Username, new { @required = "required" })
+                    <input type="text" placeholder="Username" required />
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    @Html.TextBoxFor(m => m.Password, new { @required = "required" })
+                    <input type="password" placeholder="Password" required />
                     <i class='bx bxs-lock-alt'></i>
                 </div>
 

@@ -6,7 +6,6 @@
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.runtimeconfig.json
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.dll
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.pdb
-/Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.csproj.AssemblyReference.cache
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.AssemblyInfoInputs.cache
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.AssemblyInfo.cs
@@ -29,34 +28,35 @@
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.pdb
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.genruntimeconfig.cache
 /Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/ref/EaglesNestSite.dll
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\appsettings.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\EaglesNestSite.staticwebassets.runtime.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\EaglesNestSite.exe
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\EaglesNestSite.deps.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\EaglesNestSite.runtimeconfig.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\EaglesNestSite.dll
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\bin\Debug\net7.0\EaglesNestSite.pdb
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.csproj.AssemblyReference.cache
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.AssemblyInfoInputs.cache
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.AssemblyInfo.cs
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.csproj.CoreCompileInputs.cache
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.RazorAssemblyInfo.cache
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.RazorAssemblyInfo.cs
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets\msbuild.EaglesNestSite.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets\msbuild.build.EaglesNestSite.props
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EaglesNestSite.props
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.EaglesNestSite.props
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\scopedcss\bundle\EaglesNestSite.styles.css
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\scopedcss\projectbundle\EaglesNestSite.bundle.scp.css
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.dll
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\refint\EaglesNestSite.dll
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.pdb
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\EaglesNestSite.genruntimeconfig.cache
-C:\Users\Ping\Desktop\EaglesWebsite\EaglesNestSite\obj\Debug\net7.0\ref\EaglesNestSite.dll
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/appsettings.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.staticwebassets.runtime.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.exe
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.deps.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.runtimeconfig.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.dll
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/bin/Debug/net7.0/EaglesNestSite.pdb
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.csproj.AssemblyReference.cache
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.AssemblyInfoInputs.cache
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.AssemblyInfo.cs
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.csproj.CoreCompileInputs.cache
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.RazorAssemblyInfo.cache
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.RazorAssemblyInfo.cs
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets/msbuild.EaglesNestSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets/msbuild.build.EaglesNestSite.props
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.EaglesNestSite.props
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.EaglesNestSite.props
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/scopedcss/bundle/EaglesNestSite.styles.css
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/scopedcss/projectbundle/EaglesNestSite.bundle.scp.css
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.dll
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/refint/EaglesNestSite.dll
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.pdb
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.genruntimeconfig.cache
+C:/Users/Ping/Desktop/EaglesWebsite/EaglesNestSite/obj/Debug/net7.0/ref/EaglesNestSite.dll
+/Users/jojodiaz/Desktop/College/2024_Winter/CPTG 374/Visual Studio 2022/EaglesNestSite/EaglesNestSite/obj/Debug/net7.0/EaglesNestSite.sourcelink.json

@@ -1,7 +1,22 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --navyBlue: #163a60;
+    --ligherBlue: #214266;
+    --gold: #e8d60c;
+    --cream: #f7f6e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+}
+
 body {
     margin: 0;
+    background: var(--ligherBlue);
 }
 
 .logo {
@@ -12,7 +27,7 @@ body {
 /* the navigation bar */
 nav {
     overflow: hidden;
-    background: #163a60; /* creates the dark blue */
+    background: var(--navyBlue);
     line-height: 25px;
 }
     /* margin and padding of the list of tabs */
@@ -55,7 +70,7 @@ nav {
                 }
                 /* */
                 nav ul li a.active {
-                    background: #e8d60c;
+                    background: var(--gold);
                     color: black;
                 }
 
@@ -90,8 +105,9 @@ nav {
 
 /* edits all the elements in the "content holder" */
 div.content {
-    margin: 40px;
+    padding: 40px;
     color: black;
+    background: var(--cream);
 }
 
 main {

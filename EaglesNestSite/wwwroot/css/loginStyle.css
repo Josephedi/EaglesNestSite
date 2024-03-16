@@ -1,0 +1,124 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --navyBlue: #163a60;
+    --ligherBlue: #214266;
+    --gold: #e8d60c;
+    --paleYellow: #f5d148;
+    --cream: #f7f6e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.wrapper {
+    width: 420px;
+    background: var(--ligherBlue);
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+    .wrapper h1 {
+        color: var(--paleYellow);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        margin: 0 20px 0 0;
+    }
+
+    .wrapper h1 img {
+        height: 45px;
+        width: 45px;
+        margin: 10px;
+    }
+
+
+    .wrapper .input-box {
+        color: black;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+    }
+
+        .input-box input {
+            color: black;
+            width: 100%;
+            height: 100%;
+            background: white;
+            border: none;
+            outline: none;
+            border: 4px solid rgba(232, 214, 12, .5);
+            border-radius: 40px;
+            font-size: 16px;
+            padding: 20px 45px 20px 20px;
+        }
+
+                .input-box input::placeholder {
+                    color: black;
+                }
+
+        .input-box i {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+        }
+
+.wrapper .btn {
+    width: 85%;
+    height: 45px;
+    background: var(--paleYellow);
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+.wrapper .register-link {
+    font-family: "Noto Serif", serif;
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .register-link p a:hover {
+        text-decoration: underline;
+    }
+
+.wrapper .error {
+    color: red;
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+}

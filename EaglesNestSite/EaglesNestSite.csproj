@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\masterSite.css" />
+    <None Include="wwwroot\css\MenueStyleSheet.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\Foods\" />

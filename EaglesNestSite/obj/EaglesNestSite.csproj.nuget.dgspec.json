@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ping\\source\\repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj": {}
+    "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ping\\source\\repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj": {
+    "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ping\\source\\repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj",
+        "projectUniqueName": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj",
         "projectName": "EaglesNestSite",
-        "projectPath": "C:\\Users\\Ping\\source\\repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj",
+        "projectPath": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\EaglesNestSite.csproj",
         "packagesPath": "C:\\Users\\Ping\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ping\\source\\repos\\EaglesNestSite\\EaglesNestSite\\obj\\",
+        "outputPath": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

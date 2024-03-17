@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y4i5FgCf4HF/u3s4VOrGagpGV8ECAOYtbymSPOi+4KY=",
+  "Hash": "HZHaCg7i4kHlpucX8cbRW4WFWwlJndXWK0aEZaybbSc=",
   "Source": "EaglesNestSite",
   "BasePath": "_content/EaglesNestSite",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EaglesNestSite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\wwwroot\\css\\MenueStyleSheet.css",
+      "SourceId": "EaglesNestSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\wwwroot\\",
+      "BasePath": "_content/EaglesNestSite",
+      "RelativePath": "css/MenueStyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MenueStyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\wwwroot\\css\\site.css",

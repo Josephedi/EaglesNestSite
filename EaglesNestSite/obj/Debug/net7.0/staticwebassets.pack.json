@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EaglesNestSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\wwwroot\\css\\MenueStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\MenueStyleSheet.css"
+    },
+    {
       "Id": "C:\\Users\\Ping\\Source\\Repos\\EaglesNestSite\\EaglesNestSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

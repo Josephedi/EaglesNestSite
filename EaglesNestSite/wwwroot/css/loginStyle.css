@@ -12,13 +12,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Noto Serif", serif;
 }
 
 .loginContainer {
     display: flex;
+    background: var(--cream);
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 90vh;
 }
 
 .wrapper {
@@ -27,7 +29,6 @@
     color: white;
     border-radius: 10px;
     padding: 30px;
-    font-family: "Noto Serif", serif;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }

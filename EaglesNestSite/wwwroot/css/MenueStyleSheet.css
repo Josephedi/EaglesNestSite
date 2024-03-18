@@ -1,21 +1,31 @@
-﻿* {
+﻿:root {
+    --navyBlue: #163a60;
+    --ligherBlue: #214266;
+    --gold: #e8d60c;
+    --paleYellow: #f5d148;
+    --cream: #f7f6e6;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap') body
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-{
+/*body {
     font-family: "Madimi One", sans-serif;
     font-size: 16px;
     line-height: 22px;
     color: #222;
-}
+}*/
 
 .main {
-    width: 1170px;
-    margin: 100px auto;
+    background: var(--cream);
+    justify-content: center;
+    padding: 100px 40px;
+    min-height: 100vh;
 }
 
 .section-title {

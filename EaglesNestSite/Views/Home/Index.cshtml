@@ -9,7 +9,7 @@
     <section class="home-greeting">
         <div class="home-content">
             <h1>Welcome</h1>
-            <h3>To the Eagle's Nest</h3>
+            <h3>To La Sierra's <span style="text-decoration: underline; font-size: 35px;">Eagle's Nest</span></h3>
             <div class="btn-box">
                 <a asp-area="" asp-controller="Home" asp-action="Registration">About Us</a>
                 <a asp-area="" asp-controller="Home" asp-action="Menue">See Menu</a>
@@ -19,26 +19,43 @@
 
     <section class="home-promo">
         <div class="home-content2">
-            <h3>Home of</h3>
-            <h1>The Adam Bomb</h1>
+            <div class="text-separator">
+                <h3>Home of</h3>
+                <h1>The Adam Bomb</h1>
+                <a asp-area="" asp-controller="Home" asp-action="Menue">Order It!</a>
+            </div>
+            <img src="~/images/foods/AdamBomb_Promo_IMG.jpg" />
         </div>
         <div class="home-content3">
             <h2>Where we are:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2641.3704344504963!2d-117.50120365162599!3d33.911186849522146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcb707d1955555%3A0xda9575981e2bdd24!2s4500%20Pierce%20St%2C%20Riverside%2C%20CA%2092505!5e0!3m2!1sen!2sus!4v1710750260045!5m2!1sen!2sus" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
     <section class="home-hours">
         <div class="home-content4">
             <h1>Hours</h1>
-            <ul>
-                <li>Sunday:</li>
-                <li>Monay:</li>
-                <li>Tuesday:</li>
-                <li>Wednesday:</li>
-                <li>Thursday:</li>
-                <li>Friday:</li>
-                <li>Saturday:</li>
-            </ul>
+            <div class="hours-container">
+                <ul style="text-align: left;">
+                    <li>Sunday</li>
+                    <li>Monay</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+                <ul style="text-align: right;">
+                    <li>6:00pm - 12:00am</li>
+                    <li>9:00am - 12:00am</li>
+                    <li>9:00am - 12:00am</li>
+                    <li>9:00am - 12:00am</li>
+                    <li>9:00am - 12:00am</li>
+                    <li>9:00am - 1:30pm</li>
+                    <li>8:00pm - 12:00am</li>
+                </ul>
+            </div>
+            <p class="sidenote">* Grill closes at 10pm everyday *</p>
         </div>
     </section>
 

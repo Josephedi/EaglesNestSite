@@ -21,6 +21,5 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\Foods\" />
     <Folder Include="wwwroot\images\Merch\" />
-    <Folder Include="wwwroot\images\Location\" />
   </ItemGroup>
 </Project>

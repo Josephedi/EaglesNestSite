@@ -110,7 +110,7 @@
 
 .btn:hover {
     background: var(--ligherBlue);
-    color: var(--paleYellow);
+    color: white;
 }
 
 .wrapper .login-link {

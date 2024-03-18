@@ -48,6 +48,14 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Verify()
+    {
+        ViewData["Greeting"] = "Sorry";
+        ViewData["Success"] = "Login failed";
+
+        return View();
+    }
+
     public IActionResult RegisterSuccess()
     {
         ViewData["Greeting"] = "Sorry";

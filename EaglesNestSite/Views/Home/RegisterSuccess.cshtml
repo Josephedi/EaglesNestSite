@@ -1,4 +1,7 @@
-﻿@{
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
     ViewData["Title"] = "Registered!";
 }
 
@@ -6,15 +9,14 @@
     <link rel="stylesheet" href="~/css/registerSuccessSS.css" />
 
     <div class="wrapper">
-        <form action="">
 
-            <h1>@ViewData["Greeting"]</h1>
+        <h1>@ViewData["Greeting"]</h1>
 
-            <p>@ViewData["Success"]</p>
+        <p>@ViewData["Success"]</p>
 
-            <button asp-area="" asp-controller="Home" asp-action="Index" class="btn">Go Home</button>
+        <button class="btn" asp-area="" asp-controller="Home" asp-action="Index">Go Home</button>
 
-        </form>
     </div>
 
 </div>
+

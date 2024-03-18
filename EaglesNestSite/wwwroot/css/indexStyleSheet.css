@@ -115,7 +115,7 @@
 
             .home-content2 h1 {
                 color: white;
-                font-size: 60px;
+                font-size: 50px;
                 font-weight: 700;
                 margin: 0 10px;
             }
@@ -157,7 +157,7 @@
                 color: var(--paleYellow);
                 font-size: 35px;
                 font-weight: 700;
-                margin: 10px 0 30px 0;
+                margin: 0px 0 30px 0;
             }
 
     @media (max-width: 950px) {

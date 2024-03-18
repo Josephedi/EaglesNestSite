@@ -101,9 +101,8 @@
 
     .single-menue .menue-content h5 {
         text-transform: capitalize;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
-        border: 1px;
         padding-bottom: 5px;
         margin-bottom: 10px;
         color: white;
@@ -111,7 +110,6 @@
 
         .single-menue .menue-content h5 span {
             color: #e8d60c;
-            float: right;
             font-weight: 600;
             font-style: italic;
         }

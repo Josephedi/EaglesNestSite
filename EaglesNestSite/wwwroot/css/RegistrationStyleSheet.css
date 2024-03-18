@@ -6,6 +6,7 @@
     --gold: #e8d60c;
     --paleYellow: #f5d148;
     --cream: #f7f6e6;
+    --ligherCream: #faf9f0;
 }
 
 * {
@@ -25,7 +26,7 @@
 
 .wrapper {
     width: 650px;
-    background: #faf9f0;
+    background: var(--ligherCream);
     color: var(--navyBlue);
     border-radius: 10px;
     border: 2px solid var(--navyBlue);

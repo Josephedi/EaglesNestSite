@@ -92,13 +92,13 @@
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-family: "Noto Serif", serif;
     font-size: 16px;
     font-weight: 600;
 }
 
 .btn:hover {
-    background: rgba(0, 0, 0, .8);
+    background: var(--ligherBlue);
+    color: var(--paleYellow);
 }
 
 .wrapper .register-link {

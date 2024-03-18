@@ -1,0 +1,99 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --navyBlue: #163a60;
+    --ligherBlue: #214266;
+    --gold: #e8d60c;
+    --paleYellow: #f5d148;
+    --cream: #f7f6e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+}
+
+
+.home-container {
+    background: var(--cream);
+    align-items: center;
+    min-height: 150vh;
+}
+
+.home-greeting {
+    background: url(/images/Location/EaglesNest_IMG_01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.home-content {
+    background: rgba(33, 66, 102, 0.7);
+    padding: 20px 35px 30px 35px;
+    min-width: 60%;
+}
+
+    .home-content h1 {
+        color: white;
+        font-size: 56px;
+        font-weight: 700;
+    }
+
+    .home-content h3 {
+        color: var(--paleYellow);
+        font-size: 32px;
+        font-weight: 700;
+        margin: 10px 0 40px 0;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        margin: 20px 0 20px;
+    }
+
+
+    .home-content .btn-box {
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+        height: 50px;
+    }
+
+        .btn-box a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 100%;
+            background: var(--navyBlue);
+            border: 2px solid var(--paleYellow);
+            border-radius: 8px;
+            font-size: 19px;
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px
+        }
+
+            .btn-box a:hover {
+                color: var(--navyBlue);
+                background: var(--paleYellow);
+            }
+
+
+
+
+.home-more {
+    display: flex;
+    background: var(--cream);
+    align-items: center;
+    padding: 0 10%;
+    height: 50vh;
+}
+

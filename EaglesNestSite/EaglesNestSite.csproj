@@ -12,6 +12,7 @@
     <Content Remove="wwwroot\css\masterSite.css" />
     <Content Remove="wwwroot\images\Foods\" />
     <Content Remove="wwwroot\images\Merch\" />
+    <Content Remove="wwwroot\images\Location\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\masterSite.css" />
@@ -20,5 +21,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\Foods\" />
     <Folder Include="wwwroot\images\Merch\" />
+    <Folder Include="wwwroot\images\Location\" />
   </ItemGroup>
 </Project>

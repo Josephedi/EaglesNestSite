@@ -1,0 +1,94 @@
+﻿@model ProjectModels.UserModel
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<div class="registerContainer">
+    <link rel="stylesheet" href="~/css/registrationStyleSheet.css" />
+
+
+    @using (Html.BeginForm("RegisterSuccess", "Home", FormMethod.Post))
+    {
+
+        <div class="wrapper">
+            <form action="">
+
+                <h1>Register</h1>
+
+                <p class="needed">* required</p>
+
+                <div class="input-box">
+                    <label>First Name <i>*</i></label>
+                    @Html.TextBoxFor(m => m.FirstName, new { @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Last Name <i>*</i></label>
+                    @Html.TextBoxFor(m => m.LastName, new { @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Middle Name</label>
+                    @Html.TextBoxFor(m => m.MiddleName)
+                </div>
+
+                <div class="input-box">
+                    <label>Email <i>*</i></label>
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = "example@example.com", @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Username <i>*</i></label>
+                    @Html.TextBoxFor(m => m.Email, new { @placeholder = "example@example.com", @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Password <i>*</i></label>
+                    @Html.TextBoxFor(m => m.Password, new { @placeholder = "Password", @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    @Html.TextBoxFor(m => m.Phone, new { @placeholder = "1012427856" })
+                </div>
+
+                <div class="input-box">
+                    <label>Date of Birth <i>*</i></label>
+                    @Html.TextBoxFor(m => m.DateOfBirth, new { @placeholder = "ddmmyyyy", @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Street Address 1 <i>*</i></label>
+                    @Html.TextBoxFor(m => m.Street1, new { @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>Street Address 2</label>
+                    @Html.TextBoxFor(m => m.Street2)
+                </div>
+
+                <div class="input-box">
+                    <label>City <i>*</i></label>
+                    @Html.TextBoxFor(m => m.City, new { @required = "required" })
+                </div>
+
+                <div class="input-box">
+                    <label>State <i>*</i></label>
+                    @Html.TextBoxFor(m => m.State, new { @placeholder = "CA", @required = "required" })
+                </div>
+
+                <div style="text-align: center">
+                    <button type="submit" class="btn">Register</button>
+                </div>
+
+                <div class="login-link">
+                    <p>Already have an account? <a asp-area="" asp-controller="Home" asp-action="Login">Log In</a></p>
+                </div>
+
+            </form>
+        </div>
+
+    }
+
+</div>
+

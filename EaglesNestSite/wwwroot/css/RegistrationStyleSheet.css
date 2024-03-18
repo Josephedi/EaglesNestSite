@@ -1,0 +1,131 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --navyBlue: #163a60;
+    --ligherBlue: #214266;
+    --gold: #e8d60c;
+    --paleYellow: #f5d148;
+    --cream: #f7f6e6;
+    --ligherCream: #faf9f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+}
+
+.registerContainer {
+    display: flex;
+    background: var(--cream);
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.wrapper {
+    width: 650px;
+    background: var(--ligherCream);
+    color: var(--navyBlue);
+    border-radius: 10px;
+    border: 2px solid var(--navyBlue);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 30px;
+    margin: 50px;
+    text-align: left;
+}
+
+    .wrapper h1 {
+        color: var(--navyBlue);
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .wrapper .input-box {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 0 0 40px 0;
+    }
+
+    .wrapper .needed {
+        text-align: left;
+        color: red;
+        margin: 20px 0 20px 20px;
+    }
+
+.input-box label {
+    background: transparent;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+    .input-box label i {
+        text-decoration: none;
+        color: red;
+        text-align: left;
+    }
+
+.input-box input {
+    width: 100%;
+    height: 30%;
+    background: white;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+    .input-box input::placeholder {
+        color: rgba(0, 0, 0, .4);
+    }
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .btn {
+    width: 50%;
+    height: 45px;
+    background: var(--paleYellow);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: var(--ligherBlue);
+    color: white;
+}
+
+.wrapper .login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+
+.login-link p a {
+    color: var(--navyBlue);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .login-link p a:hover {
+        text-decoration: underline;
+    }

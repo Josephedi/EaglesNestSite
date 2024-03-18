@@ -82,24 +82,25 @@
             font-size: 20px;
         }
 
-.wrapper .btn {
-    width: 85%;
-    height: 45px;
-    background: var(--paleYellow);
-    color: black;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-family: "Noto Serif", serif;
-    font-size: 16px;
-    font-weight: 600;
-}
+    .wrapper .btn {
+        width: 85%;
+        height: 45px;
+        background: var(--paleYellow);
+        color: black;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+    }
+        .btn:hover {
+            border: solid 2px var(--paleYellow);
+            background: var(--ligherBlue);
+            color: var(--paleYellow);
+        }
 
-.btn:hover {
-    background: rgba(0, 0, 0, .8);
-}
 
 .wrapper .register-link {
     font-family: "Noto Serif", serif;

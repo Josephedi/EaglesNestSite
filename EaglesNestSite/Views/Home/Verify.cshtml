@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Logged In!";
+}
+
+<div class="contentContainer">
+    <link rel="stylesheet" href="~/css/verifyStyleSheet.css" />
+
+    <div class="wrapper">
+
+            <h1>@ViewData["Greeting"]</h1>
+
+            <p>@ViewData["Success"]</p>
+
+            <button class="btn" asp-area="" asp-controller="Home" asp-action="Index">Go Home</button>
+
+    </div>
+
+</div>

@@ -17,17 +17,7 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    public IActionResult Login()
-    {
-        return View();
-    }
-
+    
 
     public IActionResult Menue()
     {
@@ -40,6 +30,39 @@ public class HomeController : Controller
         return View();
     }
 
+
+    public IActionResult Privacy()
+    {
+        return View();
+    }
+
+
+    public IActionResult Login()
+    {
+        return View();
+    }
+
+
+    public IActionResult Registration()
+    {
+        return View();
+    }
+
+    public IActionResult Verify()
+    {
+        ViewData["Greeting"] = "Sorry";
+        ViewData["Success"] = "Login failed";
+
+        return View();
+    }
+
+    public IActionResult RegisterSuccess()
+    {
+        ViewData["Greeting"] = "Sorry";
+        ViewData["Success"] = "Registration failed";
+
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

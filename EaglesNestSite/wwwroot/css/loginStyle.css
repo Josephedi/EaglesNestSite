@@ -96,10 +96,10 @@
     font-weight: 600;
 }
 
-.btn:hover {
-    background: var(--ligherBlue);
-    color: var(--paleYellow);
-}
+    .btn:hover {
+        background: var(--ligherBlue);
+        color: var(--paleYellow);
+    }
 
 .wrapper .register-link {
     font-family: "Noto Serif", serif;

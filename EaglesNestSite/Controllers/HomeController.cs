@@ -51,7 +51,7 @@ public class HomeController : Controller
     public IActionResult RegisterSuccess()
     {
         ViewData["Greeting"] = "Sorry";
-        ViewData["Sucess"] = "Registration failed";
+        ViewData["Success"] = "Registration failed";
 
         return View();
     }

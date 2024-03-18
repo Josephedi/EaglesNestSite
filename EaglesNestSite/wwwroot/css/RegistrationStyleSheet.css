@@ -119,11 +119,12 @@
     margin: 20px 0 15px 0;
 }
 
-.register-link p a {
+.login-link p a {
+    color: var(--navyBlue);
     text-decoration: none;
     font-weight: 600;
 }
 
-    .register-link p a:hover {
+    .login-link p a:hover {
         text-decoration: underline;
     }

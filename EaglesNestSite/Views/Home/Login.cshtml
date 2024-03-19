@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ProjectModels.UserModel;
+@{
     ViewData["Title"] = "Log-In";
 }
 
@@ -13,11 +14,11 @@
             <form action="">
                 <h1><img src="~/images/Logos/LaSierra_Icon.png" alt="La Sierra Logo" /> Login</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required />
+                    @Html.TextBoxFor(m => m.Username, new { @placeholder = "Username", @required = "required" })
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required />
+                    @Html.TextBoxFor(m => m.Password, new {@placeholder = "Password", @required = "required"})
                     <i class='bx bxs-lock-alt'></i>
                 </div>
 

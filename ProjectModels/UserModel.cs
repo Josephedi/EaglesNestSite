@@ -1,4 +1,6 @@
-﻿namespace ProjectModels
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ProjectModels
 {
     public class UserModel
     {

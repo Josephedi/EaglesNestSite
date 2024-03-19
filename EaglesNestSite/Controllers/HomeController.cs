@@ -79,7 +79,7 @@ public class HomeController : Controller
 
         if (isRegistered)
         {
-            ViewData["Greeting"] = "Thank you " + model.FirstName + ",";
+            ViewData["Greeting"] = "Thank you, " + model.FirstName;
             ViewData["Success"] = "You have successfully registered!";
         }
         else

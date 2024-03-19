@@ -1,6 +1,9 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using EaglesNestSite.Models;
+using BusinessLogicLayer;
+using ProjectModels;
+using System.Reflection;
 
 namespace EaglesNestSite.Controllers;
 
@@ -48,18 +51,43 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Verify()
+    public IActionResult Verify(UserModel model)
     {
-        ViewData["Greeting"] = "Sorry";
-        ViewData["Success"] = "Login failed";
+
+        BusinessLogic businessLogic = new();
+        UserModel userFound = businessLogic.LogInUser_BL(model);
+
+        if (userFound.IsActive == true)
+        {
+            ViewData["Greeting"] = "Welcome" + userFound.FirstName;
+            ViewData["Success"] = "You have logged in successfully!";
+        }
+        else
+        {
+            ViewData["Greeting"] = "Sorry";
+            ViewData["Success"] = "Login failed";
+        }
 
         return View();
     }
 
-    public IActionResult RegisterSuccess()
+    public IActionResult RegisterSuccess(UserModel model)
     {
-        ViewData["Greeting"] = "Sorry";
-        ViewData["Success"] = "Registration failed";
+
+        BusinessLogic businesssLogic = new();
+        bool isRegistered = businesssLogic.Register_BL(model);
+
+        if (isRegistered)
+        {
+            ViewData["Greeting"] = "Thank you " + model.FirstName + ",";
+            ViewData["Success"] = "You have successfully registered!";
+        }
+        else
+        {
+            ViewData["Greeting"] = "Sorry";
+            ViewData["Success"] = "Registration failed";
+        }
+
 
         return View();
     }

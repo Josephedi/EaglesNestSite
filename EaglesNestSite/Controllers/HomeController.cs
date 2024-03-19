@@ -57,7 +57,7 @@ public class HomeController : Controller
         BusinessLogic businessLogic = new();
         UserModel userFound = businessLogic.LogInUser_BL(model);
 
-        if (userFound.IsActive == true)
+        if (userFound.IsActive)
         {
             ViewData["Greeting"] = "Welcome" + userFound.FirstName;
             ViewData["Success"] = "You have logged in successfully!";

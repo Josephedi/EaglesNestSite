@@ -69,7 +69,7 @@ namespace DataAccessLayer
                 "street1, street2, city, state " +
                 "FROM LoginInfo, SiteUsers " +
                 "WHERE LoginInfo.email=Siteusers.email " +
-                "AND LoginInfo.email='" + model.Email + "'";
+                "AND LoginInfo.username='" + model.Username + "'";
 
             SqlCommand searchDatabase = new SqlCommand(sqlQuery, conn);
 

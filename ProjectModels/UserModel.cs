@@ -17,5 +17,10 @@ namespace ProjectModels
         public string? City { get; set; }
         public string? State { get; set; }
         public bool IsActive { get; set; }
+
+        public UserModel()
+        {
+            IsActive = false;
+        }
     }
 }

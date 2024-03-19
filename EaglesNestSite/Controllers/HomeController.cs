@@ -59,7 +59,7 @@ public class HomeController : Controller
 
         if (userFound.IsActive)
         {
-            ViewData["Greeting"] = "Welcome" + userFound.FirstName;
+            ViewData["Greeting"] = "Welcome, " + userFound.FirstName;
             ViewData["Success"] = "You have logged in successfully!";
         }
         else
